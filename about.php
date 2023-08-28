@@ -12,11 +12,9 @@ include('includes/config.php');
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/jquery1.min.js"></script>
-<!-- start menu -->
 <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="js/megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
-<!-- dropdown -->
 <script src="js/jquery.easydropdown.js"></script>
 </head>
 <body>
@@ -37,8 +35,7 @@ while ($row=mysqli_fetch_array($ret)) {
 ?>
 				       <h3><?php  echo $row['PageTitle'];?></h3>
 					   	<p><?php  echo $row['PageDescription'];?>.</p><?php } ?>
-					   
-		   <!-- Add fancyBox main JS and CSS files -->
+
 		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 		<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
 		<script>
